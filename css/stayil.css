@@ -1,0 +1,589 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  background-color: #222;
+}
+
+header .container {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 5px 20px 10px 5px;
+}
+header .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+header .container nav .navbar_left .agin {
+  max-width: 120px;
+  height: 33px;
+  padding: 5px 5px;
+  border: 1px solid #222;
+  color: #222;
+  background-color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+header .container nav .navbar_cinter p {
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  transform: translate(-111px, 64px);
+  position: absolute;
+  width: 320px;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+header .container nav .navbar_right ul {
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+}
+header .container nav .navbar_right ul li button {
+  width: 50px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #222;
+  color: #222;
+  background-color: #fff;
+  font-family: "Press Start 2P", cursive;
+}
+header h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300px;
+  align-items: center;
+  padding-top: 50px;
+  max-width: 320px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+header .header_nam {
+  width: auto;
+  height: 20px;
+  background-color: #fff;
+  margin-top: 90px;
+}
+header .number {
+  left: 50%;
+  position: absolute;
+  margin-left: -45px;
+  height: 80px;
+  width: 80px;
+  margin-top: -47px;
+  font-size: 50px;
+  color: #222;
+}
+
+main {
+  background-color: #222;
+  margin-top: 100px;
+  padding-bottom: 20px;
+}
+main .main_section {
+  max-width: 320px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+main .main_section .main_left ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  align-items: center;
+  max-width: 100px;
+  margin: 0 auto;
+  font-family: "Press Start 2P", cursive;
+}
+main .main_section .main_left ul .input {
+  background-color: #222;
+  border: 5px solid white;
+  border-radius: 8px;
+  font-size: 20px;
+  color: white;
+  width: 110px;
+  height: 130px;
+  padding: 5px 10px;
+  font-size: 30px;
+}
+main .main_section .main_left ul .Check {
+  padding: 10px 10px;
+  text-align: center;
+  color: #222;
+  background-color: white;
+  border: 1px solid #222;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+}
+main .main_section .main_right ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: center;
+}
+main .main_section .main_right ul li {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+@media screen and (min-width: 600px) {
+  header .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 30px 0px 30px;
+  }
+  header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  header .container nav .navbar_left .agin {
+    width: 140px;
+    height: 47px;
+    padding: 10px 10px;
+    border: 1px solid #222;
+    color: #222;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  header .container nav .navbar_cinter p {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    display: block;
+    transform: translate(-133px, 81px);
+    position: absolute;
+    width: 456px;
+    display: block;
+    margin-top: 80px;
+  }
+  header .container nav .navbar_right ul {
+    list-style: none;
+    display: flex;
+    column-gap: 25px;
+  }
+  header .container nav .navbar_right ul li button {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    color: #222;
+    background-color: #fff;
+    font-size: 20px;
+  }
+  header h1 {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    padding-top: 200px;
+    max-width: 420px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  header .header_nam {
+    width: auto;
+    height: 20px;
+    background-color: #fff;
+    margin-top: 150px;
+  }
+  header .number {
+    left: 50%;
+    position: absolute;
+    margin-left: -45px;
+    height: 99px;
+    width: 110px;
+    margin-top: -56px;
+    font-size: 50px;
+    color: #222;
+  }
+  main {
+    background-color: #222;
+    margin-top: 200px;
+  }
+  main .main_section {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  main .main_section .main_left ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    max-width: 60px;
+    margin: 0 auto;
+  }
+  main .main_section .main_left ul .input {
+    background-color: #222;
+    border: 5px solid white;
+    border-radius: 8px;
+    font-size: 30px;
+    color: white;
+    max-width: 600px;
+    height: 100px;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+  main .main_section .main_left ul .Check {
+    padding: 20px 30px;
+    text-align: center;
+    color: #222;
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  main .main_section .main_right ul {
+    list-style: none;
+    display: flex;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+  main .main_section .main_right ul li {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 200;
+    color: white;
+  }
+}
+@media screen and (min-width: 945px) {
+  header .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 30px 0px 30px;
+  }
+  header .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  header .container nav .navbar_left .agin {
+    width: 180px;
+    height: 47px;
+    padding: 0px 0px;
+    border: 1px solid #222;
+    color: #222;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+  }
+  header .container nav .navbar_cinter p {
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    display: block;
+    transform: translate(-220px, -11px);
+    position: absolute;
+    width: 456px;
+  }
+  header .container nav .navbar_right ul {
+    list-style: none;
+    display: flex;
+    column-gap: 25px;
+  }
+  header .container nav .navbar_right ul li button {
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    color: #222;
+    background-color: #fff;
+    font-size: 20px;
+  }
+  header h1 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 500;
+    align-items: center;
+    max-width: 900px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: -90px;
+  }
+  header .header_nam {
+    width: auto;
+    height: 20px;
+    background-color: #fff;
+    margin-top: 50px;
+  }
+  header .number {
+    left: 50%;
+    position: absolute;
+    margin-left: -45px;
+    height: 99px;
+    width: 110px;
+    margin-top: -56px;
+    font-size: 50px;
+    color: #222;
+  }
+  main {
+    background-color: #222;
+    margin-top: 80px;
+  }
+  main .main_section {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  main .main_section .main_left ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    max-width: 60px;
+    margin: 0 auto;
+  }
+  main .main_section .main_left ul .input {
+    background-color: #222;
+    border: 5px solid white;
+    border-radius: 8px;
+    font-size: 30px;
+    color: white;
+    width: 250px;
+    height: 150px;
+    padding: 10px 10px;
+    font-size: 30px;
+  }
+  main .main_section .main_left ul .Check {
+    padding: 10px 10px;
+    text-align: center;
+    color: #222;
+    background-color: white;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-size: 20px;
+  }
+  main .main_section .main_right ul {
+    list-style: none;
+    display: flex;
+    row-gap: 20px;
+    align-items: flex-start;
+  }
+  main .main_section .main_right ul li {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 200;
+    color: white;
+  }
+}
+.Check, .number {
+  position: relative;
+  margin: auto;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  border: 2px solid gold;
+  border-radius: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.Check:hover, .number:hover {
+  filter: contrast(1.1);
+}
+.Check:active, .number:active {
+  filter: contrast(0.9);
+}
+.Check::before, .Check::after, .number::before, .number::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid gold;
+  transition: all 0.5s;
+  animation: clippath 3s infinite linear;
+  border-radius: 10px;
+}
+.Check::after, .number::after {
+  animation: clippath 3s infinite -1.5s linear;
+}
+
+@keyframes clippath {
+  0%, 100% {
+    clip-path: inset(0 0 98% 0);
+  }
+  25% {
+    clip-path: inset(0 98% 0 0);
+  }
+  50% {
+    clip-path: inset(98% 0 0 0);
+  }
+  75% {
+    clip-path: inset(0 0 0 98%);
+  }
+}
+.bg::before {
+  background: rgba(255, 215, 0, 0.5);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.conic {
+  position: relative;
+  z-index: 0;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.conic::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #1a232a;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-image: conic-gradient(transparent, rgb(168, 239, 255), transparent 30%);
+  animation: rotate 4s linear infinite;
+}
+.conic::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: #000;
+  border-radius: 5px;
+}
+
+.conic-demo::after {
+  animation: opacityChange 5s infinite linear;
+}
+
+@keyframes opacityChange {
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+.agin, .uz, .eng {
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 2rem;
+}
+.agin::before, .uz::before, .eng::before {
+  content: "";
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 50% 50%;
+  background-position: 0 0;
+  background-image: conic-gradient(#399953, #399953);
+  animation: rotate 4s linear infinite;
+}
+.agin::after, .uz::after, .eng::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 6px;
+  top: 6px;
+  width: calc(100% - 12px);
+  height: calc(100% - 12px);
+  background: white;
+  border-radius: 5px;
+  animation: opacityChange 3s infinite alternate;
+}
+
+@keyframes opacityChange {
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+.input {
+  height: 10px;
+  width: 500px;
+  border: 2px solid #5D5D5D;
+  border-top: 0;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -40px;
+  outline: none;
+}
+
+.animate {
+  margin-top: 60px;
+}
+
+.animate-done {
+  margin-top: 0;
+  transition: all 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/*# sourceMappingURL=stayil.css.map */

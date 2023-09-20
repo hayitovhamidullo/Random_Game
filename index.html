@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./stayil/stayil.css">
+    <!-- link-scc -->
+    <link rel="stylesheet" href="./css/stayil.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="navbar_left">
+                    <button class="agin">Agin</button>
+                </div>
+                <div class="navbar_cinter" style="color: white;">
+                    <p class="nam">(Between 1 and 20)</p>
+                </div>
+                <div class="navbar_right">
+                    <ul>
+                        <li><button class="uz">Uz</button></li>
+                        <li><button class="eng">Eng</button></li>
+                        <!-- <li><button class="rus">Rus</button></li> -->
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <h1>Guess My Number!</h1>
+        <div class="header_nam"></div>
+        <button class="number">?</button>
+    </header>
+    <main>
+        <section class="main_section">
+            <div class="main_left">
+                <ul>
+                    <li><input type="number" class="input"></li>
+                    <li><button class="Check">Check</button></li>
+                </ul>
+            </div>
+            <div class="main_right">
+                <ul>
+                    <li><p class="start">Start guessing...</p></li>
+                    <li><p class="score">💯 Score: <span class="scoreNma">20</span></p></li>
+                    <li><p class="Highscore">🥇 Highscore: <span class="HighscoreNam">0</span></p></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <script src="./javaScript/script.js"></script>
+</body>
+</html>
